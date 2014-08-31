@@ -26,6 +26,7 @@ public class LoginFormDao {
 	}
 	public void saveE(LoginForm lf){
 		getSession().saveOrUpdate(lf);
+
 	}
 
 }
